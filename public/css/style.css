@@ -11,6 +11,7 @@ body {
   flex-direction: column;
 }
 .heading {
+  margin-top: 50px;
   width: 401px;
   height: 60px;
   background-color: #ff51ff;
@@ -21,9 +22,11 @@ body {
   color: white;
 }
 .container {
+ 
   width: 400px;
 
   height: auto;
+  min-height: 100px;
   border: 1px solid;
   display: flex;
   justify-content: center;
